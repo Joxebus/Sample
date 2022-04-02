@@ -1,0 +1,11 @@
+*class
+*.idea
+*.log
+output/
+build/
+out/
+
+*.iml
+
+# Mac
+.DS_Store
