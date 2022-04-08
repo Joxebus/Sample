@@ -1,3 +1,5 @@
+import io.github.joxebus.abstracts.AbstractAnimal;
+
 /**
  * This comment is for document
  * this class

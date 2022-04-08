@@ -1,3 +1,4 @@
+package io.github.joxebus.abstracts;
 
 public abstract class AbstractAnimal {
 

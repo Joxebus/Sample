@@ -1,3 +1,5 @@
+import io.github.joxebus.abstracts.AbstractAnimal;
+
 public class Dog extends AbstractAnimal implements Barkable {
 
     final static String DOG_NAME = "Dog";

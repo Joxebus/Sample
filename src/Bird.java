@@ -1,3 +1,5 @@
+import io.github.joxebus.abstracts.AbstractAnimal;
+
 public class Bird extends AbstractAnimal implements Flyable {
 
     final static String BIRD_NAME = "Paloma";
