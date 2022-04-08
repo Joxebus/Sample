@@ -1,4 +1,7 @@
 import io.github.joxebus.abstracts.AbstractAnimal;
+import io.github.joxebus.concrete.Bird;
+import io.github.joxebus.concrete.Cat;
+import io.github.joxebus.concrete.Dog;
 
 /**
  * This comment is for document

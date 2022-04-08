@@ -1,9 +1,11 @@
+package io.github.joxebus.concrete;
+
 import io.github.joxebus.abstracts.AbstractAnimal;
 import io.github.joxebus.interfaces.Barkable;
 
 public class Dog extends AbstractAnimal implements Barkable {
 
-    final static String DOG_NAME = "Dog";
+    final static String DOG_NAME = "io.github.joxebus.concrete.Dog";
 
     public void makeSound() {
         bark();

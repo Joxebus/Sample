@@ -1,3 +1,5 @@
+package io.github.joxebus.concrete;
+
 import io.github.joxebus.abstracts.AbstractAnimal;
 import io.github.joxebus.interfaces.Flyable;
 
