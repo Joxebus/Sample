@@ -1,4 +1,5 @@
 import io.github.joxebus.abstracts.AbstractAnimal;
+import io.github.joxebus.interfaces.Barkable;
 
 public class Dog extends AbstractAnimal implements Barkable {
 

@@ -1,4 +1,5 @@
 import io.github.joxebus.abstracts.AbstractAnimal;
+import io.github.joxebus.interfaces.Meowable;
 
 public class Cat extends AbstractAnimal implements Meowable {
 

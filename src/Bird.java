@@ -1,4 +1,5 @@
 import io.github.joxebus.abstracts.AbstractAnimal;
+import io.github.joxebus.interfaces.Flyable;
 
 public class Bird extends AbstractAnimal implements Flyable {
 
