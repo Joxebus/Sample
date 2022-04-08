@@ -1,5 +1,5 @@
 
-public abstract class Animal {
+public abstract class AbstractAnimal {
 
     public abstract void makeSound();
     public abstract void sayName();

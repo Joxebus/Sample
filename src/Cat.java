@@ -1,4 +1,4 @@
-public class Cat extends Animal implements Meowable {
+public class Cat extends AbstractAnimal implements Meowable {
 
     static final String CAT_NAME = "Cat";
 

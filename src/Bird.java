@@ -1,4 +1,4 @@
-public class Bird extends Animal implements Flyable {
+public class Bird extends AbstractAnimal implements Flyable {
 
     final static String BIRD_NAME = "Paloma";
 

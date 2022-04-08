@@ -1,6 +1,6 @@
-public class Dog extends Animal implements Barkable {
+public class Dog extends AbstractAnimal implements Barkable {
 
-    static final String DOG_NAME = "Dog";
+    final static String DOG_NAME = "Dog";
 
     public void makeSound() {
         bark();

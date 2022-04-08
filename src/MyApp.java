@@ -10,7 +10,7 @@ public class MyApp {
     public static void main(String[] args) {
         // Tipo nombre y creacion del objeto
 
-        Animal animal = new Cat();
+        AbstractAnimal animal = new Cat();
         animal.sayName();
         animal.makeSound();
 
@@ -22,6 +22,10 @@ public class MyApp {
         animal = new Bird();
         animal.sayName();
         animal.makeSound();
+
+        System.out.println(Dog.DOG_NAME);
+        System.out.println(Cat.CAT_NAME);
+        System.out.println(Bird.BIRD_NAME);
     }
 
 }
