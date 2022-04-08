@@ -5,7 +5,7 @@ import io.github.joxebus.interfaces.Barkable;
 
 public class Dog extends AbstractAnimal implements Barkable {
 
-    final static String DOG_NAME = "io.github.joxebus.concrete.Dog";
+    public final static String DOG_NAME = "Dog";
 
     public void makeSound() {
         bark();

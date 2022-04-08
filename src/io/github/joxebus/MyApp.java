@@ -1,3 +1,5 @@
+package io.github.joxebus;
+
 import io.github.joxebus.abstracts.AbstractAnimal;
 import io.github.joxebus.concrete.Bird;
 import io.github.joxebus.concrete.Cat;

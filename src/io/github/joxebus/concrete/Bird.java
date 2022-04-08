@@ -5,7 +5,7 @@ import io.github.joxebus.interfaces.Flyable;
 
 public class Bird extends AbstractAnimal implements Flyable {
 
-    final static String BIRD_NAME = "Paloma";
+    public final static String BIRD_NAME = "Paloma";
 
     public void makeSound() {
         sing();
