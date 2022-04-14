@@ -9,13 +9,15 @@ public class App {
         BankAccount bankAccount = new BankAccount();
         Client client = new Client();
 
-        bankAccount.bankAccountNumber = "001";
-        bankAccount.balance = 100.0;
+        bankAccount.setBankAccountNumber("001");
+        bankAccount.setBalance(100.0);
 
-        client.bankAccount = bankAccount;
-        client.clientNumber = "0001";
+        client.setBankAccount(bankAccount);
+        client.setClientNumber("0001");
 
-
+        System.out.println("El cliente con el numero: " + client.getClientNumber());
+        System.out.println("Tiene un balance de: " + client.getBankAccount().getBalance());
+        System.out.println("En su cuenta numero: " + client.getBankAccount().getBankAccountNumber());
 
     }
 }
