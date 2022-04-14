@@ -1,6 +1,6 @@
 package io.github.joxebus.dto;
 
 public class BankAccount {
-    public String bankAccountNumber;
-    public double balance;
+    private String bankAccountNumber;
+    private double balance;
 }
